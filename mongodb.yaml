@@ -1,5 +1,5 @@
 - name: configuring mango db
-  hosts: backend
+  hosts: mongodb
   become: true
   tasks:
     - name: Copy mongo db repo file
